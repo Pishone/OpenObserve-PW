@@ -12,7 +12,7 @@ export default defineConfig({
     storageState: 'auth.json',
     viewport: { width: 1280, height: 720 },
     video: 'on-first-retry',
-    screenshot: 'only-on-failure',
+    // screenshot: 'only-on-failure',
   },
 
   reporter: [['html', { open: 'never' }]],
