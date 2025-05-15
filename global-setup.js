@@ -13,7 +13,6 @@ export default async function globalSetup() {
   await page.getByRole('button', { name: 'Login' }).click();
 
   await page.waitForLoadState();
-  await page.waitForTimeout(1000);
 
   await page.context().storageState({
     path: './auth.json',
