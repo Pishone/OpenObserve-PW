@@ -53,7 +53,7 @@ export class DashboardPage {
 
   async openAndStartPanel() {
     await this.dashboardMenu.click();
-    await this.dashboardNameCell.click();
+    await this.dashboardNameCell.first().click();
     await this.addPanelBtn.click();
   }
 
